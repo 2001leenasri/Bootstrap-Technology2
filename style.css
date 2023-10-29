@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+.word{
+    background-color: black;
+    top: -900px;
+    position: relative;
+    width: 45%;
+    height: 5vh;
+}
+.word h6{
+   color: white;
+   letter-spacing: 5px;
+   position: relative;
+   left: 15px; 
+}
+.word1{
+    background-color: black;
+    top: -900px;
+    position: relative;
+    width: 10%;
+    height: 5vh;
+}
+.word1 h6{
+    color: white;
+    letter-spacing: 5px;
+    position: relative;
+    left: 15px; 
+ }
+.word2{
+    background-color:white;
+    top: -890px;
+    position: relative;
+    width: 38%;
+}
+.word2 h1{
+    font-size: 65px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.word3{
+    background-color:white;
+    top: -900px;
+    position: relative;
+    width: 58%;
+}
+.word3 h1{
+    font-size: 65px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.word4{
+    background-color:white;
+    top: -910px;
+    position: relative;
+    width: 44%;
+}
+.word4 h1{
+    font-size: 65px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.container a{
+    position: relative;
+    padding: 10px;
+    top: -900px;
+    background-color: yellow;
+    width: 15%;
+    height: 8vh;
+    color: black;
+    letter-spacing: 2px;
+    border-bottom:5px solid rgb(202, 187, 27);
+}
+.container a:hover{
+    background-color: rgb(233, 215, 19) ;
+    color: black;
+}
+.about{
+    position: relative;
+    top: -280px;
+    height: auto;
+}
+.about-us button{
+    background-color: black;
+    color: white;
+    border: none;
+    letter-spacing: 5px;
+    height: 5vh;
+    width: 15%;
+}
+.Why-Our-Lab hr{
+    position: relative;
+    left: 490px;
+}
+.How-We-Help hr{
+    position: relative;
+    left: 190px;
+}
+.Experience-the-Difference hr{
+    position: relative;
+    left: 135px;
+}
+.services{
+    position: relative;
+    top: -230px;
+    height: auto;
+}
+.our-services button{
+    background-color: black;
+    color: white;
+    border: none;
+    letter-spacing: 5px;
+    height: 5vh;
+    width: 20%;
+}
+.contact{
+    position: relative;
+    top: -150px;
+    height: auto;
+}
+.contact-us button{
+    background-color: black;
+    color: white;
+    border: none;
+    letter-spacing: 5px;
+    height: 5vh;
+    width: 40%;   
+}
+.btn1 button{
+    background-color: yellow;
+    width: 38%;
+    height: 8vh;
+    color: black;
+    letter-spacing: 2px;
+    border: none;
+    border-bottom:5px solid rgb(202, 187, 27);
+}
+.btn1 button:hover{
+    background-color: rgb(233, 215, 19) ;
+    color: black;
+}
+.btn2 button{
+    position: relative;
+    top: 0px;
+    left: 10px;
+    background-color: yellow;
+    width: 60%;
+    height: 8vh;
+    color: black;
+    letter-spacing: 2px;
+    border: none;
+    border-bottom:5px solid rgb(202, 187, 27);
+}
+.btn2 button:hover{
+    background-color: rgb(233, 215, 19) ;
+    color: black;
+}
+
+.road-map{
+    position: relative;
+    left: 550px;
+    top: -780px;
+    width: 55%;
+    height: 0vh;
+    
+}
+.map{
+    height: 0vh;
+    width: 220%;
+}
+.map iframe{
+    border: 0;
+    height: 100vh;
+    width: 100%;
+}
+.icon .bx{
+    font-size: 250%;
+    background-color: yellow;
+    height:40%;
+    width:75%;
+    border-radius: 50%;
+    padding:23px;
+}
+.icon{
+    width: 20%;
+    position: relative;
+    left: 400px;
+    top: -100px;
+}
+.icon1{
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:1024px) {
+    .word{
+        background-color: black;
+        top: 0px;
+        position: relative;
+        width: 80%;
+        height: 20vh;
+    }
+    .word h6{
+       color: white;
+       letter-spacing: 8px;
+       line-height: 30px;
+       position: relative;
+       left: 12px; 
+    }
+    .word1{
+        background-color: black;
+        top: -30px;
+        position: relative;
+        width: 50%;
+        height: 5vh;
+    }
+    .word1 h6{
+        color: white;
+        letter-spacing:8px;
+        position: relative;
+        left: 15px; 
+     }
+    .word2{
+        background-color:white;
+        top: 0px;
+        position: relative;
+        width: 38%;
+    }
+    .word2 h1{
+        font-size: 28px;
+        font-weight: 400;
+        letter-spacing: 5px;
+    }
+    .word3{
+        background-color:white;
+        top: -6px;
+        position: relative;
+        width: 100%;
+    }
+    .word3 h1{
+        font-size: 28px;
+        font-weight: 400;
+        letter-spacing: 5px;
+    }
+    .word4{
+        background-color:white;
+        top: -12px;
+        position: relative;
+        width: 100%;
+    }
+    .word4 h1{
+        font-size: 28px;
+        font-weight: 400;
+        letter-spacing: 5px;
+    }
+    .container a{
+        position: relative;
+        padding: 20px;
+        top: 0px;
+        background-color: yellow;
+        width: 65%;
+        height: 10vh;
+        color: black;
+        letter-spacing: 2px;
+        border-bottom:5px solid rgb(202, 187, 27);
+    }
+    .about{
+        position: relative;
+        top: 50px;
+        height: auto;
+    }
+    .about-us button{
+        background-color: black;
+        color: white;
+        border: none;
+        letter-spacing: 5px;
+        height: 5vh;
+        width: 50%;
+    }
+    .Why-Our-Lab hr{
+        position: relative;
+        left: 78px;
+    }
+    .How-We-Help hr{
+        position: relative;
+        left: 70px;
+    }
+    .Experience-the-Difference hr{
+        position: relative;
+        left: 0px;
+    }
+    .services{
+        position: relative;
+        top: 80px;
+        height: auto;
+    }
+    .our-services button{
+        background-color: black;
+        color: white;
+        border: none;
+        letter-spacing: 5px;
+        height: 5vh;
+        width: 80%;
+    }
+    .contact{
+        position: relative;
+        top: 650px;
+        height: auto;
+    
+    }
+    .contact-us button{
+        background-color: black;
+        color: white;
+        border: none;
+        letter-spacing: 5px;
+        height: 5vh;
+        width: 65%;  
+        position: relative;
+        left: 50px; 
+    }
+    .btn1 button{
+        position: relative;
+        left: 20px;
+        width: 80%;
+       }
+   .btn2 button{
+    position: relative;
+    top: -380px;
+    left: 10px;
+    width: 100%;
+   }
+   .road-map{
+    position: relative;
+    left: 0px;
+    top: -480px;
+    width: 55%;
+    height: 60vh;
+}
+.map{
+    height: 60vh;
+    width: 220%;
+}
+.map iframe{
+    border: 0;
+    height: 60vh;
+    width: 90%;
+}
+.email{
+    position: relative;
+    top: 250px;
+}
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
